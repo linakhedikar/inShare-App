@@ -14,7 +14,7 @@ const copyBtn = document.querySelector("#copyBtn");
 const emailForm = document.querySelector("#emailForm");
 const toast = document.querySelector(".toast");
 
-const host = "https://innshare.herokuapp.com/";
+const host = "https://inshare-send-anywhere.herokuapp.com/";
 const uploadURL = `${host}api/files`;
 const emailURL = `${host}api/files/send`;
 
